@@ -28,3 +28,5 @@ Route::resource('scorders', App\Http\Controllers\scorderController::class);
 
 
 Route::get('product/displaygrid', 'App\Http\Controllers\productController@displaygrid')->name('products.displaygrid');
+
+Route::get('product/additem/{id}', 'App\Http\Controllers\productController@additem')->name('products.additem');
